@@ -309,7 +309,7 @@ function sha1.binary(msg)
 end
 
 function sha1.base64(msg)
-  return sha1.to_base_64(sha1.binary(msg))
+  return sha1.to_base64(sha1.binary(msg))
 end
 
 function sha1.hmac(key, text)
